@@ -107,7 +107,7 @@ describe('ThreadRepositoryPostgres', () => {
         title: 'sebuah thread',
         body: 'sebuah body thread',
         username: 'tfkhdyt',
-        date: '2023-01-24T08:41:00.000Z',
+        date: '2023-01-24T15:41:00.000Z',
       };
       await UsersTableTestHelper.addUser({ username: 'tfkhdyt' });
       await ThreadsTableTestHelper.addThread({
@@ -136,7 +136,7 @@ describe('ThreadRepositoryPostgres', () => {
         title: 'sebuah thread',
         body: 'sebuah body thread',
         username: 'tfkhdyt',
-        date: '2023-01-24T08:41:00.000Z',
+        date: '2023-01-24T15:41:00.000Z',
       };
       await UsersTableTestHelper.addUser({ username: 'tfkhdyt' });
       await ThreadsTableTestHelper.addThread({

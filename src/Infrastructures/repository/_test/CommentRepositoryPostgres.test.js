@@ -254,7 +254,7 @@ describe('CommentRepositoryPostgres', () => {
       expect(comments[0]).toStrictEqual({
         id: 'comment-123',
         username: 'dicoding',
-        date: '2023-01-24T08:41:00.000Z',
+        date: '2023-01-24T15:41:00.000Z',
         content: 'ini komentar',
         is_deleted: false,
       });

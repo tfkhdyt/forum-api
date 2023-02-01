@@ -257,7 +257,7 @@ describe('ReplyRepositoryPostgres', () => {
         id: 'reply-123',
         content: 'ini balasan',
         username: 'dicoding',
-        date: '2023-01-24T08:41:00.000Z',
+        date: '2023-01-24T15:41:00.000Z',
         is_deleted: false,
       });
     });
