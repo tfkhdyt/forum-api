@@ -1,18 +1,14 @@
 name: Continuous Integration
-
 on:
   pull_request:
     branches:
       - main
-
 jobs:
   test:
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [14.x]
-
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
@@ -38,3 +34,4 @@ jobs:
           PGPORT: ${{ secrets.PGPORT_TEST }}
           ACCESS_TOKEN_KEY: ${{ secrets.ACCESS_TOKEN_KEY }}
           REFRESH_TOKEN_KEY: ${{ secrets.REFRESH_TOKEN_KEY }}
+          ACCESS_TOKEN_AGE: ${{ secrets.ACCESS_TOKEN_AGE }}
